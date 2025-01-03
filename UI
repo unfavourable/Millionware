@@ -1965,9 +1965,9 @@ library.keybind = function(self, info)
 			BorderColor3 = global.rgb(0, 0, 0),
 			Text = info.str,
 			Name = "keybind",
-			Size = global.dim2(0, 30, 0, 50),
+			Size = global.dim2(0, 30, 0, 5),
 			BorderSizePixel = 2,
-			TextSize = 9,
+			TextSize = 20,
 			AutoButtonColor = false,
 			BackgroundColor3 = global.rgb(18, 18, 18)
 		})
@@ -3883,3 +3883,4 @@ return object.lowercase({
 		return self.library, self.object, self.global
 	end
 }, {native = true})
+
