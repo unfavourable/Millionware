@@ -1967,7 +1967,7 @@ library.keybind = function(self, info)
 			Name = "keybind",
 			Size = global.dim2(0, 30, 0, 5),
 			BorderSizePixel = 2,
-			TextSize = 20,
+			TextSize = 50,
 			AutoButtonColor = false,
 			BackgroundColor3 = global.rgb(18, 18, 18)
 		})
